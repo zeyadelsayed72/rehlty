@@ -1,0 +1,189 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+   
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 991px) and (max-width: 1400px)
+{
+    .navs-container .navbar .col-lg-3 {
+        width: 150px;
+    }
+    .navs-container .navbar .nav-link {
+        margin: 0 5px;
+        font-size: 13px;
+    }
+    .navs-container .butns  {
+        font-size: 12px;
+    }
+  
+    .navs-container .butns .butn {
+        padding: 0.7rem 0.9rem;
+
+    }
+    .downloading-sec .img_1 {
+        right: -5%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1024px)
+{
+
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+
+}
+@media(max-width:991px)
+{
+    .navs-container .butns  {
+        margin-top: 15px;
+    }
+    .navs-container .butns i{
+        position: relative;
+        bottom: 2px;
+    }
+    .navs-container .butns .butn {
+        padding: 0.6rem 1rem;
+
+    }
+    .header .search-box {
+        position: relative;
+        bottom: -40px;
+        width: 100%;
+    }
+    .downloading-sec .text-box .app_links .store_img {
+        width: 145px;
+    }
+    .downloading-sec .img_1 {
+        width: 40%;
+        position: relative;
+    }
+    .footer .newsletter_outer .inner {
+        padding: 70px 15px;
+    }
+    .footer .newsletter_outer .inner .form-group .butn {
+        padding: 0.7rem 1rem;
+    }
+    .bank-acc .swiper-container .swiper-button-next, 
+    .bank-acc .swiper-container .swiper-container-rtl .swiper-button-prev {
+        right: 45%;
+    }
+    .bank-acc .swiper-container .swiper-button-prev, 
+    .bank-acc .swiper-container .swiper-container-rtl .swiper-button-next {
+        left: 45%;
+    } 
+    .profile-pg .tab_wrapper.noti_tab .noti_card .date {
+        font-size: 12px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .profile-pg .tab_wrapper.noti_tab .noti_card {
+        padding: 50px 20px 20px 20px;
+    }
+    .downloading-sec::before {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    /*.header .search-box .col-lg-2 {*/
+    /*    width: 20.666667%;*/
+    /*}*/
+
+}
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px)
+{
+    .ad-det-pg .inner .ad_num_badge {
+        padding: 0.9rem 0.5rem;
+        min-width: fit-content;
+    }
+    .ad-det-pg .inner .head_box {
+        display: flex;
+        flex-direction: column;
+    }
+    .ad-det-pg .inner .sm-slide-swiper .sm-bg-header {
+        height: 90px;
+    }
+    .profile-pg .tab_wrapper.info_tab .butns {
+        flex-wrap: wrap;
+    }
+    .profile-pg .tab_wrapper.info_tab .butn {
+        padding: 0.7rem 1.2rem !important;
+    }
+    .profile-pg .tab_wrapper.rate_tab .tab_title {
+        margin-bottom: 5rem!important;
+    } 
+    .profile-pg .tab_wrapper.rate_tab .ad-det-pg .inner .rate_title .sm_img {
+        width: 50px;
+        height: 50px;
+    }
+    .profile-pg .tab_wrapper.rate_tab .ad-det-pg .inner .rate_title {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-content .modal-body {
+        width: 100%;
+    }
+    #contactAdModal .butn {
+        padding: 0.7rem 1rem !important;
+    }
+    .contact-pg .contact_card {
+        margin-bottom: 5px;
+        transform: scale(.9);
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+
+}
+@media(max-width:576px)
+{
+    .categ-sec .swiper-container .swiper-button-next, 
+    .categ-sec .swiper-container .swiper-button-prev {
+        margin: 0 -3px;
+    }
+    .footer .footer_outer .copyright_p {
+        font-size: 12px;
+    }
+    .progress-wrap {
+        bottom: 40px;
+    }
+    .header .swiper-button-next, 
+    .header .swiper-button-prev {
+        top: 75%;
+    }
+    .header .search-box .form-group .icon {
+        top: 48px;
+    }
+    .payment-pg .disc_copon .form-group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment-pg .payment_way .form-check {
+        margin: 10px 20px;
+    }
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+   
+}
+@media (max-width: 320px)
+{
+
+}

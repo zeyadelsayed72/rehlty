@@ -1,0 +1,71 @@
+body {
+    direction: ltr;
+}
+.profile-pg .tab_wrapper .tour_card .butns_foot a::after {
+    right: -20px;
+    left: unset;
+    top: -11px;
+}
+.progress-wrap {
+    right: 20px;
+    left: unset;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+    margin-left: unset !important;
+}
+
+.me-1 {
+    margin-left: unset !important;
+    margin-right: 0.25rem !important;
+}
+
+.header .search-box .form-group .icon {
+    right: unset;
+    left: 12px;
+}
+
+/*.navs-container .navbar .form-group i {*/
+/*    left: 13px;*/
+/*    right: unset;*/
+/*}*/
+
+.downloading-sec::before {
+    left: 0;
+    border-radius: 0px 22px 22px 0px;
+    right: unset;
+}
+
+.footer .newsletter_outer .inner .form-group .butn {
+    left: unset;
+    right: 5px;
+}
+
+.register-pg .box .inner .form-group .togglePassword {
+    left: unset;
+    right: 15px;
+}
+.register-pg .box .inner .registerRadios .form-check {
+    padding-inline-start: 40px;
+}
+.navs-container .navbar .form-group .search_icon {
+    left: 13px;
+    right: unset;
+}
+.commission-pg .alert_p::before {
+    right: unset;
+    left: 0;
+}
+.payment-pg .disc_copon .form-group .butn {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+@media(max-width:991px)
+{
+    .ad-det-pg .inner .data-group .icon_outer i {
+        position: relative;
+        top: 2px;
+    }
+}
