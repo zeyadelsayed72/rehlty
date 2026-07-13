@@ -9,13 +9,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> الاقسام </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> الاقسام </b></h1>
             </div>
-            <img src="images/pg-header-2.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-2.png') }}" alt="" class="bg" />
         </section>
         <!-- Start categ-sec -->
         <section class="categ-sec section">
@@ -31,7 +31,7 @@
                                 aria-controls="pills-mainCateg1" aria-selected="false">
                                 <div class="categ_card">
                                     <div class="icon_outer">
-                                        <img src="images/icons/categ-1.svg" alt="" class="icon" />
+                                        <img src="{{ asset('images/icons/categ-1.svg') }}" alt="" class="icon" />
                                     </div>
                                     <h6 class="title mb-0"><b>بحري</b></h6>
                                 </div>
@@ -43,7 +43,7 @@
                                 aria-controls="pills-mainCateg2" aria-selected="false">
                                 <div class="categ_card">
                                     <div class="icon_outer">
-                                        <img src="images/icons/categ-2.svg" alt="" class="icon" />
+                                        <img src="{{ asset('images/icons/categ-2.svg') }}" alt="" class="icon" />
                                     </div>
                                     <h6 class="title mb-0"><b>مطاعم وكافيهات</b></h6>
                                 </div>
@@ -55,7 +55,7 @@
                                 aria-controls="pills-mainCateg3" aria-selected="false">
                                 <div class="categ_card">
                                     <div class="icon_outer">
-                                        <img src="images/icons/categ-3.svg" alt="" class="icon" />
+                                        <img src="{{ asset('images/icons/categ-3.svg') }}" alt="" class="icon" />
                                     </div>
                                     <h6 class="title mb-0"><b>اسم التصنيف </b></h6>
                                 </div>
@@ -67,7 +67,7 @@
                                 aria-controls="pills-mainCateg4" aria-selected="false">
                                 <div class="categ_card">
                                     <div class="icon_outer">
-                                        <img src="images/icons/categ-4.svg" alt="" class="icon" />
+                                        <img src="{{ asset('images/icons/categ-4.svg') }}" alt="" class="icon" />
                                     </div>
                                     <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                 </div>
@@ -79,7 +79,7 @@
                                 aria-controls="pills-mainCateg5" aria-selected="false">
                                 <div class="categ_card">
                                     <div class="icon_outer">
-                                        <img src="images/icons/mail.svg" alt="" class="icon" />
+                                        <img src="{{ asset('images/icons/mail.svg') }}" alt="" class="icon" />
                                     </div>
                                     <h6 class="title mb-0"><b>اسم التصنيف </b></h6>
                                 </div>
@@ -91,7 +91,7 @@
                                 aria-controls="pills-mainCateg6" aria-selected="false">
                                 <div class="categ_card">
                                     <div class="icon_outer">
-                                        <img src="images/icons/phone.svg" alt="" class="icon" />
+                                        <img src="{{ asset('images/icons/phone.svg') }}" alt="" class="icon" />
                                     </div>
                                     <h6 class="title mb-0"><b> القسم </b></h6>
                                 </div>
@@ -110,7 +110,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -126,7 +126,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -158,7 +158,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -168,55 +168,55 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -231,7 +231,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -247,7 +247,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -255,7 +255,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -263,7 +263,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -271,7 +271,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -279,7 +279,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -289,55 +289,55 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -352,7 +352,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -360,7 +360,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -368,7 +368,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -376,7 +376,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -384,7 +384,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -392,7 +392,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -400,7 +400,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -410,55 +410,55 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -473,7 +473,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -481,7 +481,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -489,7 +489,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -497,7 +497,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -505,7 +505,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -513,7 +513,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -521,7 +521,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -531,55 +531,55 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -594,7 +594,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -602,7 +602,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -610,7 +610,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -618,7 +618,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -626,7 +626,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -634,7 +634,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -642,7 +642,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -652,55 +652,55 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -715,7 +715,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -723,7 +723,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -731,7 +731,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -739,7 +739,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -747,7 +747,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -755,7 +755,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -763,7 +763,7 @@
                                 <div class="nav-item">
                                     <div class="nav-link w-100 p-0">
                                         <div class="subCateg_card">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -773,55 +773,55 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-6">
                                         <div class="subCateg_card2">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <h6 class="subcateg_title text-center mt-2"><small>اسم التصنيف</small></h6>
                                         </div>
                                     </div>
@@ -899,7 +899,7 @@
                                 <div class="tour_card featured_ad_card ">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -917,7 +917,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -931,7 +931,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -949,7 +949,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -963,7 +963,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -981,7 +981,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -995,7 +995,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/header-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/header-1.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1013,7 +1013,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1027,7 +1027,7 @@
                                 <div class="tour_card featured_ad_card ">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1045,7 +1045,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1059,7 +1059,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1077,7 +1077,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1091,7 +1091,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/header-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/header-1.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1109,7 +1109,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1123,7 +1123,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1141,7 +1141,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1155,7 +1155,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1173,7 +1173,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1187,7 +1187,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1205,7 +1205,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1219,7 +1219,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/tour-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1237,7 +1237,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1251,7 +1251,7 @@
                                 <div class="tour_card">
                                     <div class="img-box">
                                         <a href="#">
-                                            <img src="images/header-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/header-1.png') }}" alt="" class="sec-img" />
                                         </a>
                                         <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                     </div>
@@ -1269,7 +1269,7 @@
                                         <div class="foot">
                                             <div class="in-flex">
                                                 <a href="#" class="info inFlex">
-                                                    <img src="images/avatar-1.png" alt="" class="avatr" />
+                                                    <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr" />
                                                     <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                 </a>
                                                 <h3 class="price mb-0 d-flex align-items-center"><b
@@ -1311,7 +1311,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-12 m-auto pb-5">
-                        <img src="images/icons/categories.png" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/categories.png') }}" alt="" class="modal_img" />
                         <h2 class="title color-secondary text-center mb-4"><b> أقسام البحري</b></h2>
                         <!-- First Categ -->
                         <h6 class="subtitle color-primary mb-0"><b> اختر القسم الفرعي الاول :</b></h6>
@@ -1322,7 +1322,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab1" type="button"
                                         role="tab" aria-controls="pills-tab1" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/categ-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-1.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1334,7 +1334,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab2" type="button"
                                         role="tab" aria-controls="pills-tab2" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/categ-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1346,7 +1346,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab3" type="button"
                                         role="tab" aria-controls="pills-tab3" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1358,7 +1358,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab4" type="button"
                                         role="tab" aria-controls="pills-tab4" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/categ-3.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-3.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1370,7 +1370,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab5" type="button"
                                         role="tab" aria-controls="pills-tab5" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/categ-4.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/categ-4.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1382,7 +1382,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab6" type="button"
                                         role="tab" aria-controls="pills-tab6" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/tour-1.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1394,7 +1394,7 @@
                                         data-bs-toggle="pill" data-bs-target="#pills-tab7" type="button"
                                         role="tab" aria-controls="pills-tab7" aria-selected="false">
                                         <div class="categ_card ">
-                                            <img src="images/tour-2.png" alt="" class="sec-img" />
+                                            <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                             <div class="text">
                                                 <h6 class="title mb-0"><b>بحري</b></h6>
                                             </div>
@@ -1414,7 +1414,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1424,7 +1424,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-2.png" alt=""
+                                                        <img src="{{ asset('images/categ-2.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1435,7 +1435,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-3.png" alt=""
+                                                        <img src="{{ asset('images/categ-3.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1446,7 +1446,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-3.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1456,7 +1456,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1467,7 +1467,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1477,7 +1477,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1497,7 +1497,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1507,7 +1507,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-2.png" alt=""
+                                                        <img src="{{ asset('images/categ-2.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1518,7 +1518,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-3.png" alt=""
+                                                        <img src="{{ asset('images/categ-3.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1529,7 +1529,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-3.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1539,7 +1539,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1550,7 +1550,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1560,7 +1560,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1580,7 +1580,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-3.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1590,7 +1590,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1611,7 +1611,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1622,7 +1622,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1632,7 +1632,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1652,7 +1652,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1663,7 +1663,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1683,7 +1683,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1694,7 +1694,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1704,7 +1704,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1724,7 +1724,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/categ-4.png" alt=""
+                                                        <img src="{{ asset('images/categ-4.png') }}" alt=""
                                                             class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
@@ -1735,7 +1735,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
@@ -1745,7 +1745,7 @@
                                             <div class="nav-item">
                                                 <a href="#" class="nav-link w-100 p-0">
                                                     <div class="categ_card ">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                         <div class="text">
                                                             <h6 class="title mb-0"><b>اسم القسم </b></h6>
                                                         </div>
