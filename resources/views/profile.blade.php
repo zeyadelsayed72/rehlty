@@ -7,13 +7,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> الملف الشخصي </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> الملف الشخصي </b></h1>
             </div>
-            <img src="images/pg-header-2.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-2.png') }}" alt="" class="bg" />
         </section>
         <!-- Start profile-pg -->
         <section class="profile-pg  section">
@@ -22,17 +22,17 @@
                     <div class="col-lg-3">
                         <div class="profile_side mb-4">
                             <div class="prof_data mb-4">
-                                <img src="images/avatar-2.png" alt="" class="avatar" />
+                                <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar" />
                                 <h5 class="name"><b>عادل رامز</b></h5>
                                 <p class="prof_rate fs-5 text-center mb-4">
-                                    <img src="images/icons/star.svg" alt="" class="icon me-2" />
+                                    <img src="{{ asset('images/icons/star.svg') }}" alt="" class="icon me-2" />
                                     <b>4.5</b> <small>( 250 تقييم)</small>
                                 </p>
                                 <a href="#" class="butn dark_butn w-100 mt-4">إدفع عمولتك</a>
                             </div>
                             <div class="statics_box ">
                                 <div class="statics d-flex mb-3">
-                                    <img src="images/icons/profile-side-1.svg" alt=""
+                                    <img src="{{ asset('images/icons/profile-side-1.svg') }}" alt=""
                                         class="icon me-3 filterPrimary" />
                                     <div class="content">
                                         <h6 class="label"><small>عدد إعلاناتي</small></h6>
@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
                                 <div class="statics d-flex">
-                                    <img src="images/icons/profile-side-2.svg" alt=""
+                                    <img src="{{ asset('images/icons/profile-side-2.svg') }}" alt=""
                                         class="icon me-3 filterPrimary" />
                                     <div class="content">
                                         <h6 class="label"><small> عدد مشاهدات الإعلانات </small></h6>
@@ -56,40 +56,40 @@
                                 <button class="nav-link active" id="v-pills-tab1-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab1" type="button" role="tab"
                                     aria-controls="v-pills-tab1" aria-selected="true">
-                                    <img src="images/icons/profile_tab_1.svg" alt="" class="icon-18 me-2" /> الملف
+                                    <img src="{{ asset('images/icons/profile_tab_1.svg') }}" alt="" class="icon-18 me-2" /> الملف
                                     الشخصي
                                 </button>
                                 <button class="nav-link" id="v-pills-tab2-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab2" type="button" role="tab"
                                     aria-controls="v-pills-tab2" aria-selected="false">
-                                    <img src="images/icons/profile_tab_2.svg" alt="" class="icon-18 me-2" />
+                                    <img src="{{ asset('images/icons/profile_tab_2.svg') }}" alt="" class="icon-18 me-2" />
                                     إعلاناتي
                                 </button>
                                 <button class="nav-link" id="v-pills-tab7-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab7" type="button" role="tab"
                                     aria-controls="v-pills-tab7" aria-selected="false">
-                                    <img src="images/icons/profile_tab_7.png" alt="" class="icon-18 me-2" /> إضافة
+                                    <img src="{{ asset('images/icons/profile_tab_7.png') }}" alt="" class="icon-18 me-2" /> إضافة
                                     اعلان
                                 </button>
                                 <button class="nav-link" id="v-pills-tab3-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab3" type="button" role="tab"
                                     aria-controls="v-pills-tab3" aria-selected="false">
-                                    <img src="images/icons/profile_tab_3.svg" alt="" class="icon-18 me-2" /> المفضلة
+                                    <img src="{{ asset('images/icons/profile_tab_3.svg') }}" alt="" class="icon-18 me-2" /> المفضلة
                                 </button>
                                 <button class="nav-link" id="v-pills-tab4-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab4" type="button" role="tab"
                                     aria-controls="v-pills-tab4" aria-selected="false">
-                                    <img src="images/icons/profile_tab_4.svg" alt="" class="icon-18 me-2" />
+                                    <img src="{{ asset('images/icons/profile_tab_4.svg') }}" alt="" class="icon-18 me-2" />
                                     الرسائل
                                 </button>
                                 <button class="nav-link" id="v-pills-tab5-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab5" type="button" role="tab"
                                     aria-controls="v-pills-tab5" aria-selected="false">
-                                    <img src="images/icons/profile_tab_5.svg" alt="" class="icon-18 me-2" />
+                                    <img src="{{ asset('images/icons/profile_tab_5.svg') }}" alt="" class="icon-18 me-2" />
                                     الإشعارات
                                 </button>
                                 <button class="nav-link" data-bs-toggle="modal" data-bs-target="#logoutModal">
-                                    <img src="images/icons/profile_tab_6.svg" alt="" class="icon-18 me-2" />
+                                    <img src="{{ asset('images/icons/profile_tab_6.svg') }}" alt="" class="icon-18 me-2" />
                                     تسجيل خروج
                                 </button>
                             </div>
@@ -162,7 +162,7 @@
                                                     <div class="tour_card">
                                                         <div class="img-box">
                                                             <a href="#">
-                                                                <img src="images/tour-2.png" alt=""
+                                                                <img src="{{ asset('images/tour-2.png') }}" alt=""
                                                                     class="sec-img" />
                                                             </a>
                                                             <!-- <button class="fav_butn"><i class="fa-solid fa-heart"></i></button> -->
@@ -183,7 +183,7 @@
                                                             <div class="foot">
                                                                 <div class="in-flex">
                                                                     <!-- <div class="info inFlex">
-                                                                            <img src="images/avatar-1.png" alt="" class="avatr"/>
+                                                                            <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr"/>
                                                                             <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                                         </div> -->
                                                                     <h3 class="price mb-0 d-flex align-items-center"><b
@@ -211,7 +211,7 @@
                                                     <div class="tour_card">
                                                         <div class="img-box">
                                                             <a href="#">
-                                                                <img src="images/tour-3.png" alt=""
+                                                                <img src="{{ asset('images/tour-3.png') }}" alt=""
                                                                     class="sec-img" />
                                                             </a>
                                                             <!-- <button class="fav_butn"><i class="fa-solid fa-heart"></i></button> -->
@@ -232,7 +232,7 @@
                                                             <div class="foot">
                                                                 <div class="in-flex">
                                                                     <!-- <div class="info inFlex">
-                                                                            <img src="images/avatar-1.png" alt="" class="avatr"/>
+                                                                            <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr"/>
                                                                             <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                                         </div> -->
                                                                     <h3 class="price mb-0 d-flex align-items-center"><b
@@ -265,7 +265,7 @@
                                                     <div class="tour_card featured_ad_card">
                                                         <div class="img-box">
                                                             <a href="#">
-                                                                <img src="images/tour-1.png" alt=""
+                                                                <img src="{{ asset('images/tour-1.png') }}" alt=""
                                                                     class="sec-img" />
                                                             </a>
                                                             <button class="print_butn">
@@ -289,7 +289,7 @@
                                                             <div class="foot">
                                                                 <div class="in-flex">
                                                                     <!-- <div class="info inFlex">
-                                                                            <img src="images/avatar-1.png" alt="" class="avatr"/>
+                                                                            <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr"/>
                                                                             <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                                         </div> -->
                                                                     <h3 class="price mb-0 d-flex align-items-center"><b
@@ -317,7 +317,7 @@
                                                     <div class="tour_card featured_ad_card">
                                                         <div class="img-box">
                                                             <a href="#">
-                                                                <img src="images/tour-3.png" alt=""
+                                                                <img src="{{ asset('images/tour-3.png') }}" alt=""
                                                                     class="sec-img" />
                                                             </a>
                                                             <!-- <button class="fav_butn"><i class="fa-solid fa-heart"></i></button> -->
@@ -341,7 +341,7 @@
                                                             <div class="foot">
                                                                 <div class="in-flex">
                                                                     <!-- <div class="info inFlex">
-                                                                            <img src="images/avatar-1.png" alt="" class="avatr"/>
+                                                                            <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatr"/>
                                                                             <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                                         </div> -->
                                                                     <h3 class="price mb-0 d-flex align-items-center"><b
@@ -597,7 +597,7 @@
                                             <div class="tour_card">
                                                 <div class="img-box">
                                                     <a href="#">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                     </a>
                                                     <button class="fav_butn active"><i
                                                             class="fa-solid fa-heart"></i></button>
@@ -618,7 +618,7 @@
                                                     <div class="foot">
                                                         <div class="in-flex">
                                                             <div class="info inFlex">
-                                                                <img src="images/avatar-1.png" alt=""
+                                                                <img src="{{ asset('images/avatar-1.png') }}" alt=""
                                                                     class="avatr" />
                                                                 <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                             </div>
@@ -633,7 +633,7 @@
                                             <div class="tour_card">
                                                 <div class="img-box">
                                                     <a href="#">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                     </a>
                                                     <button class="fav_butn active"><i
                                                             class="fa-solid fa-heart"></i></button>
@@ -654,7 +654,7 @@
                                                     <div class="foot">
                                                         <div class="in-flex">
                                                             <div class="info inFlex">
-                                                                <img src="images/avatar-1.png" alt=""
+                                                                <img src="{{ asset('images/avatar-1.png') }}" alt=""
                                                                     class="avatr" />
                                                                 <h6 class="name mb-0"><b>Saad Elwan</b></h6>
                                                             </div>
@@ -682,7 +682,7 @@
                                             <div class="chats_wrapper">
                                                 <div class="item d-flex justify-content-between ">
                                                     <div class="d-flex">
-                                                        <img src="images/avatar-1.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatar" />
                                                         <div class="content">
                                                             <h5 class="name">Magda Ali</h5>
                                                             <p class="msg_p mb-0">هل يوجد أي رحلات متوفرة حاليا؟</p>
@@ -693,7 +693,7 @@
                                                 </div>
                                                 <div class="item d-flex justify-content-between active">
                                                     <div class="d-flex">
-                                                        <img src="images/avatar-2.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar" />
                                                         <div class="content">
                                                             <h5 class="name">سامي عبد الحق</h5>
                                                             <p class="msg_p mb-0">هل يوجد أي رحلات متوفرة حاليا؟</p>
@@ -704,7 +704,7 @@
                                                 </div>
                                                 <div class="item d-flex justify-content-between ">
                                                     <div class="d-flex">
-                                                        <img src="images/header-1.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/header-1.png') }}" alt="" class="avatar" />
                                                         <div class="content">
                                                             <h5 class="name">Magda Ali</h5>
                                                             <p class="msg_p mb-0">هل يوجد أي رحلات متوفرة حاليا؟</p>
@@ -715,7 +715,7 @@
                                                 </div>
                                                 <div class="item d-flex justify-content-between ">
                                                     <div class="d-flex">
-                                                        <img src="images/tour-1.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="avatar" />
                                                         <div class="content">
                                                             <h5 class="name">Magda Ali</h5>
                                                             <p class="msg_p mb-0">هل يوجد أي رحلات متوفرة حاليا؟</p>
@@ -731,12 +731,12 @@
                                                 <div class="chat_ad">
                                                     <p class="p">يتم التواصل معك بخصوص الاعلان</p>
                                                     <h6 class="rate_title mb-0">
-                                                        <img src="images/categ-1.png" alt="" class="sm_img">
+                                                        <img src="{{ asset('images/categ-1.png') }}" alt="" class="sm_img">
                                                         <b>اسم الاعلان</b>
                                                     </h6>
                                                 </div>
                                                 <div class="chat_header inFlex">
-                                                    <img src="images/avatar-2.png" alt="" class="avatar" />
+                                                    <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar" />
                                                     <div class="content">
                                                         <h5 class="name"><b>سامي عبد الحق</b></h5>
                                                         <!-- <p class="activity mb-0 d-flex align-items-center">
@@ -752,35 +752,35 @@
                                                         <div class="msg_cnt">
                                                             مرحبا
                                                         </div>
-                                                        <img src="images/avatar-1.png" alt="" class="avatar">
+                                                        <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatar">
                                                         <span class="date">3:15 PM</span>
                                                     </div>
                                                     <div class="l_msg">
                                                         <div class="msg_cnt">
                                                             Iلقد قضينا يوم جميل جدا في الرحلة
                                                         </div>
-                                                        <img src="images/avatar-1.png" alt="" class="avatar">
+                                                        <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatar">
                                                         <span class="date">3:15 PM</span>
                                                     </div>
                                                     <div class="r_msg">
-                                                        <img src="images/avatar-2.png" alt="" class="avatar">
+                                                        <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar">
                                                         <div class="msg_cnt">
                                                             مرحبا حبيبي لقد وصلني إستفسارك عن العطل الأخير ماذا ينقصك
                                                         </div>
                                                         <span class="date">3:17 PM</span>
                                                     </div>
                                                     <!-- <div class="r_msg">
-                                                            <img src="images/avatar-2.png" alt="" class="avatar">
+                                                            <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar">
                                                             <div class="msg_cnt">
                                                                 <div class="imgs d-flex align-items-center flex-wrap">
                                                                     <a href="images/header-1.png" data-fancybox="images">
-                                                                        <img src="images/header-1.png" alt="" class="chat-img">
+                                                                        <img src="{{ asset('images/header-1.png') }}" alt="" class="chat-img">
                                                                     </a>
                                                                     <a href="images/tour-1.png" data-fancybox="images">
-                                                                        <img src="images/tour-1.png" alt="" class="chat-img">
+                                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="chat-img">
                                                                     </a>
                                                                     <a href="images/tour-3.png" data-fancybox="images">
-                                                                        <img src="images/tour-3.png" alt="" class="chat-img">
+                                                                        <img src="{{ asset('images/tour-3.png') }}" alt="" class="chat-img">
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -812,7 +812,7 @@
                                     <h2 class="tab_title mb-5"><b> الإشعارات </b></h2>
                                     <div class="noti_card in-flex">
                                         <div class="d-flex">
-                                            <img src="images/icons/notification-1.svg" alt=""
+                                            <img src="{{ asset('images/icons/notification-1.svg') }}" alt=""
                                                 class="icon filterPrimary" />
                                             <div class="content">
                                                 <h6 class="title"><b>عنوان التنبيه</b></h6>
@@ -823,7 +823,7 @@
                                     </div>
                                     <div class="noti_card in-flex">
                                         <div class="d-flex">
-                                            <img src="images/icons/notification-1.svg" alt=""
+                                            <img src="{{ asset('images/icons/notification-1.svg') }}" alt=""
                                                 class="icon filterSecondary" />
                                             <div class="content">
                                                 <h6 class="title"><b>عنوان التنبيه</b></h6>
@@ -834,7 +834,7 @@
                                     </div>
                                     <div class="noti_card in-flex">
                                         <div class="d-flex">
-                                            <img src="images/icons/notification-1.svg" alt=""
+                                            <img src="{{ asset('images/icons/notification-1.svg') }}" alt=""
                                                 class="icon filterPrimary" />
                                             <div class="content">
                                                 <h6 class="title"><b>عنوان التنبيه</b></h6>
@@ -941,7 +941,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/mail.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/mail.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-5"><b> تم تغير البريد الالكتروني بنجاح </b></h2>
                         <p class="det text-center mb-2">
                             من فضلك قم بإختيار البريد الإلكتروني المرسل علي البريد المدخل
@@ -959,7 +959,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/phone.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/phone.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-5"><b> تم تغير رقم الجوال بنجاح </b></h2>
                         <p class="det text-center mb-2">
                             من فضلك قم بإختيار البريد الإلكتروني المرسل علي البريد المدخل
@@ -978,7 +978,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/commision-2.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/commision-2.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-5"><b> عمولة الموقع</b></h2>
                         <p class="det text-center mb-2">
                             ستكون عمولة الموقه محسوبة بنسبة
@@ -1005,7 +1005,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/ad-1.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/ad-1.svg') }}" alt="" class="modal_img" />
                         <h3 class="title text-center mb-5"><b>هل تود ان يكون الاعلان ( عادي / مميز ) ؟</b></h3>
                         <form>
                             <div class="inFlex justify-content-center mb-5">
@@ -1038,7 +1038,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/logout.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/logout.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-5"><b> هل تود تسجيل الخروج؟ </b></h2>
                         <div class="butns d-flex justify-content-center mt-4">
                             <button class="butn primary_butn mx-2 py-3 px-5">
@@ -1059,7 +1059,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/mail.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/mail.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-4"><b> تم تغير البريد الالكتروني بنجاح </b></h2>
                     </div>
                 </div>
@@ -1071,7 +1071,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/phone.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/phone.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-4"><b> تم تغير رقم الجوال بنجاح </b></h2>
                     </div>
                 </div>
