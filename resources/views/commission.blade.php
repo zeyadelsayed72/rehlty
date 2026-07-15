@@ -9,20 +9,20 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> حساب العموله </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> حساب العموله </b></h1>
             </div>
-            <img src="images/pg-header-1.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-1.png') }}" alt="" class="bg" />
         </section>
         <!-- Start commission-pg -->
         <section class="commission-pg section">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <img src="images/commision-1.svg" alt="" class="sec-img" />
+                        <img src="{{ asset('images/commision-1.svg') }}" alt="" class="sec-img" />
                     </div>
                     <div class="col-lg-6">
                         <div class="text-box">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="img-box">
-                            <img src="images/commision-2.svg" alt="" class="sec-img" />
+                            <img src="{{ asset('images/commision-2.svg') }}" alt="" class="sec-img" />
                             <span class="result color-primary"><b>25.5 %</b></span>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-12 m-auto pb-5">
-                        <img src="images/commision-1.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/commision-1.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-5"><b> دفع أونلاين </b></h2>
                         <form>
                             <div class="row">
@@ -127,7 +127,7 @@
                     <div class="swiper-wrapper pb-4">
                         <div class="swiper-slide">
                             <div class="bank_card">
-                                <img src="images/icons/bank-1.svg" alt="" class="bank_logo" />
+                                <img src="{{ asset('images/icons/bank-1.svg') }}" alt="" class="bank_logo" />
                                 <div class="card-body py-4 px-4">
                                     <h5 class="bank_name text-center"><b>SNB Bank</b></h5>
                                     <div class="row mt-3 justify-content-around">
@@ -148,7 +148,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="bank_card">
-                                <img src="images/icons/bank-2.svg" alt="" class="bank_logo" />
+                                <img src="{{ asset('images/icons/bank-2.svg') }}" alt="" class="bank_logo" />
                                 <div class="card-body py-4 px-4">
                                     <h5 class="bank_name text-center"><b>ADCB Bank</b></h5>
                                     <div class="row mt-3 justify-content-around">
@@ -169,7 +169,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="bank_card">
-                                <img src="images/icons/bank-3.svg" alt="" class="bank_logo" />
+                                <img src="{{ asset('images/icons/bank-3.svg') }}" alt="" class="bank_logo" />
                                 <div class="card-body py-4 px-4">
                                     <h5 class="bank_name text-center"><b>ATB Bank</b></h5>
                                     <div class="row mt-3 justify-content-around">
@@ -274,7 +274,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/commision-1.svg" alt="" class="modal_img" />
+                        <img src="{{ asset('images/commision-1.svg') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-5"><b>دفع أونلاين</b></h2>
                         <form>
                             <div class="row">
