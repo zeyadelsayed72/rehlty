@@ -9,20 +9,20 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> تسجيل الدخول </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> تسجيل الدخول </b></h1>
             </div>
-            <img src="images/header-1.png" alt="" class="bg" />
+            <img src="{{ asset('images/header-1.png') }}" alt="" class="bg" />
         </section>
         <!-- Start register-pg -->
         <section class="register-pg section">
             <div class="container">
                 <div class="col-md-7 m-auto">
                     <div class="box">
-                        <img src="images/logo.png" alt="" class="logo d-block m-auto">
+                        <img src="{{ asset('images/logo.png') }}" alt="" class="logo d-block m-auto">
                         <div class="inner">
                             <div class="head text-center mb-5">
                                 <div class="links">
@@ -49,8 +49,8 @@
                     </div>
                 </div>
             </div>
-            <img src="images/pattern-1.png" alt="" class="pattern1" />
-            <img src="images/pattern-2.png" alt="" class="pattern2" />
+            <img src="{{ asset('images/pattern-1.png') }}" alt="" class="pattern1" />
+            <img src="{{ asset('images/pattern-2.png') }}" alt="" class="pattern2" />
         </section>
     </main>
 @endsection
