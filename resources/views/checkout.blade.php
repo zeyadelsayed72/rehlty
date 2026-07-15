@@ -7,13 +7,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> إتمام الدفع </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b>إتمام الدفع</b></h1>
             </div>
-            <img src="images/pg-header-2.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-2.png') }}" alt="" class="bg" />
         </section>
         <!-- Start checkout-pg  -->
         <section class="section payment-pg">
@@ -28,7 +28,7 @@
                                         value="option1">
                                     <label class="form-check-label" for="payment1">
                                         <div class="img">
-                                            <img src="images/pay/visa.png" alt="" class="pay_logo" />
+                                            <img src="{{ asset('images/pay/visa.png') }}" alt="" class="pay_logo" />
                                             <h6>فيزا</h6>
                                         </div>
                                     </label>
@@ -38,7 +38,7 @@
                                         value="option2">
                                     <label class="form-check-label" for="payment2">
                                         <div class="img">
-                                            <img src="images/pay/master.png" alt="" class="pay_logo" />
+                                            <img src="{{ asset('images/pay/master.png') }}" alt="" class="pay_logo" />
                                             <h6> ماستر كارد</h6>
                                         </div>
                                     </label>
@@ -48,7 +48,7 @@
                                         value="applePayRadio">
                                     <label class="form-check-label" for="payment3">
                                         <div class="img">
-                                            <img src="images/pay/apple-pay.svg" alt="" class="pay_logo" />
+                                            <img src="{{ asset('images/pay/apple-pay.svg') }}" alt="" class="pay_logo" />
                                             <h6 class="name mb-0">Apple Pay</h6>
                                         </div>
                                     </label>
@@ -58,7 +58,7 @@
                                         value="bankTransfer">
                                     <label class="form-check-label" for="payment5">
                                         <div class="img">
-                                            <img src="images/pay/bank-transfer.png" alt="" class="pay_logo" />
+                                            <img src="{{ asset('images/pay/bank-transfer.png') }}" alt="" class="pay_logo" />
                                             <h6 class="name mb-0">التحويل البنكي</h6>
                                         </div>
                                     </label>
