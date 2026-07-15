@@ -9,13 +9,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> الاسئلة الشائعه </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> الاسئلة الشائعه </b></h1>
             </div>
-            <img src="images/pg-header-2.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-2.png') }}" alt="" class="bg" />
         </section>
         <!-- Start faq-pg  -->
         <section class="faq-pg section">
@@ -90,8 +90,8 @@
                     </div>
                 </div>
             </div>
-            <img src="images/pattern-1.png" alt="" class="pattern1" />
-            <img src="images/pattern-2.png" alt="" class="pattern2" />
+            <img src="{{ asset('images/pattern-1.png') }}" alt="" class="pattern1" />
+            <img src="{{ asset('images/pattern-2.png') }}" alt="" class="pattern2" />
         </section>
     </main>
 @endsection
