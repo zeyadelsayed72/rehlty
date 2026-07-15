@@ -9,13 +9,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> اتصل بنا </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> اتصل بنا </b></h1>
             </div>
-            <img src="images/pg-header-2.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-2.png') }}" alt="" class="bg" />
         </section>
         <!-- Start contact-pg  -->
         <section class="contact-pg section">
@@ -23,21 +23,21 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="contact_card">
-                            <img src="images/icons/mail-2.svg " alt="" class="icon filterPrimary mb-4" />
+                            <img src="{{ asset('images/icons/mail-2.svg ') }}" alt="" class="icon filterPrimary mb-4" />
                             <h5 class="title color-dark mb-3">البريد الإلكتروني للمؤسسة</h5>
                             <h5 class="data color-secondary"><b> name@domain.com</b></h5>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="contact_card">
-                            <img src="images/icons/phone-2.svg " alt="" class="icon filterPrimary mb-4" />
+                            <img src="{{ asset('images/icons/phone-2.svg ') }}" alt="" class="icon filterPrimary mb-4" />
                             <h5 class="title color-dark mb-3">رقم جــوال المؤسسة</h5>
                             <h5 class="data color-secondary"><b>+966-445123310</b></h5>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="contact_card">
-                            <img src="images/icons/map.svg " alt="" class="icon filterPrimary mb-4" />
+                            <img src="{{ asset('images/icons/map.svg ') }}" alt="" class="icon filterPrimary mb-4" />
                             <h5 class="title color-dark mb-3">عنوان المؤسسة</h5>
                             <h5 class="data color-secondary"><b>هنا تفاصيل العنوان</b></h5>
                         </div>
