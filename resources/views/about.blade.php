@@ -9,20 +9,20 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> نبذه عنا </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> نبذه عنا </b></h1>
             </div>
-            <img src="images/header-1.png" alt="" class="bg" />
+            <img src="{{ asset('images/header-1.png') }}" alt="" class="bg" />
         </section>
         <!-- Start about-sec -->
         <section class="about-sec section">
             <div class="container">
                 <div class="row justify-content-evenly pt-5 mt-5">
                     <div class="col-lg-6">
-                        <img src="images/about-1.png" alt="" class="sec-img" />
+                        <img src="{{ asset('images/about-1.png') }}" alt="" class="sec-img" />
                     </div>
                     <div class="col-lg-5">
                         <div class="text-box mt-5">
@@ -77,8 +77,8 @@
                     </div>
                 </div>
             </div>
-            <img src="images/pattern-1.png" alt="" class="pattern1" />
-            <img src="images/pattern-2.png" alt="" class="pattern2" />
+            <img src="{{ asset('images/pattern-1.png') }}" alt="" class="pattern1" />
+            <img src="{{ asset('images/pattern-2.png') }}" alt="" class="pattern2" />
         </section>
         <!-- Start features-sec -->
         <section class="features-sec bg-white section">
