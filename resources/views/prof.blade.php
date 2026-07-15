@@ -7,13 +7,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white"> الملف الشخصي </span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> الملف الشخصي </b></h1>
             </div>
-            <img src="images/pg-header-2.png" alt="" class="bg" />
+            <img src="{{ asset('images/pg-header-2.png') }}" alt="" class="bg" />
         </section>
         <!-- Start profile-pg -->
         <section class="profile-pg  section">
@@ -22,10 +22,10 @@
                     <div class="col-lg-3">
                         <div class="profile_side mb-4">
                             <div class="prof_data mb-4">
-                                <img src="images/avatar-2.png" alt="" class="avatar" />
+                                <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar" />
                                 <h5 class="name"><b>عادل رامز</b></h5>
                                 <p class="prof_rate fs-5 text-center mb-4">
-                                    <img src="images/icons/star.svg" alt="" class="icon me-2" />
+                                    <img src="{{ asset('images/icons/star.svg') }}" alt="" class="icon me-2" />
                                     <b>4.5</b> <small>( 250 تقييم)</small>
                                 </p>
                                 <a href="#" class="butn dark_butn w-100 mt-4"><i
@@ -33,14 +33,14 @@
                             </div>
                             <!-- <div class="statics_box ">
                                     <div class="statics d-flex mb-3">
-                                        <img src="images/icons/profile-side-1.svg" alt="" class="icon me-3 filterPrimary"/>
+                                        <img src="{{ asset('images/icons/profile-side-1.svg') }}" alt="" class="icon me-3 filterPrimary"/>
                                         <div class="content">
                                             <h6 class="label"><small>عدد الاعلانات</small></h6>
                                             <h5 class="num"><b>40</b></h5>
                                         </div>
                                     </div>
                                     <div class="statics d-flex">
-                                        <img src="images/icons/profile-side-2.svg" alt="" class="icon me-3 filterPrimary"/>
+                                        <img src="{{ asset('images/icons/profile-side-2.svg') }}" alt="" class="icon me-3 filterPrimary"/>
                                         <div class="content">
                                             <h6 class="label"><small> عدد مشاهدات الإعلانات </small></h6>
                                             <h5 class="num"><b>21,756</b></h5>
@@ -55,19 +55,19 @@
                                 <button class="nav-link active" id="v-pills-tab1-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab1" type="button" role="tab"
                                     aria-controls="v-pills-tab1" aria-selected="true">
-                                    <img src="images/icons/profile_tab_1.svg" alt="" class="icon-18 me-2" /> الملف
+                                    <img src="{{ asset('images/icons/profile_tab_1.svg') }}" alt="" class="icon-18 me-2" /> الملف
                                     الشخصي
                                 </button>
                                 <button class="nav-link" id="v-pills-tab2-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab2" type="button" role="tab"
                                     aria-controls="v-pills-tab2" aria-selected="false">
-                                    <img src="images/icons/profile_tab_2.svg" alt="" class="icon-18 me-2" />
+                                    <img src="{{ asset('images/icons/profile_tab_2.svg') }}" alt="" class="icon-18 me-2" />
                                     الاعلانات
                                 </button>
                                 <button class="nav-link" id="v-pills-tab8-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-tab8" type="button" role="tab"
                                     aria-controls="v-pills-tab8" aria-selected="false">
-                                    <img src="images/icons/profile_tab_8.png" alt="" class="icon-18 me-2" />
+                                    <img src="{{ asset('images/icons/profile_tab_8.png') }}" alt="" class="icon-18 me-2" />
                                     التقييمات
                                 </button>
                             </div>
@@ -116,7 +116,7 @@
                                             <div class="tour_card">
                                                 <div class="img-box">
                                                     <a href="#">
-                                                        <img src="images/tour-1.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-1.png') }}" alt="" class="sec-img" />
                                                     </a>
                                                     <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                                 </div>
@@ -147,7 +147,7 @@
                                             <div class="tour_card featured_ad_card ">
                                                 <div class="img-box">
                                                     <a href="#">
-                                                        <img src="images/tour-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-2.png') }}" alt="" class="sec-img" />
                                                     </a>
                                                     <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                                 </div>
@@ -178,7 +178,7 @@
                                             <div class="tour_card  ">
                                                 <div class="img-box">
                                                     <a href="#">
-                                                        <img src="images/tour-3.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/tour-3.png') }}" alt="" class="sec-img" />
                                                     </a>
                                                     <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                                 </div>
@@ -209,7 +209,7 @@
                                             <div class="tour_card">
                                                 <div class="img-box">
                                                     <a href="#">
-                                                        <img src="images/categ-2.png" alt="" class="sec-img" />
+                                                        <img src="{{ asset('images/categ-2.png') }}" alt="" class="sec-img" />
                                                     </a>
                                                     <button class="fav_butn"><i class="fa-solid fa-heart"></i></button>
                                                 </div>
@@ -249,12 +249,12 @@
                                         <div class="ad-det-pg bg-white">
                                             <div class="inner row ">
                                                 <h6 class="rate_title">
-                                                    <img src="images/categ-1.png" alt="" class="sm_img" />
+                                                    <img src="{{ asset('images/categ-1.png') }}" alt="" class="sm_img" />
                                                     اسم الاعلان
                                                 </h6>
                                                 <div class="col-lg-6">
                                                     <div class="feedback_card d-flex">
-                                                        <img src="images/avatar-1.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatar" />
                                                         <div class="content ">
                                                             <div class="in-flex">
                                                                 <div class="stars">
@@ -276,7 +276,7 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="feedback_card d-flex">
-                                                        <img src="images/avatar-2.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar" />
                                                         <div class="content ">
                                                             <div class="in-flex">
                                                                 <div class="stars">
@@ -299,12 +299,12 @@
                                             </div>
                                             <div class="inner row">
                                                 <h6 class="rate_title">
-                                                    <img src="images/categ-2.png" alt="" class="sm_img" />
+                                                    <img src="{{ asset('images/categ-2.png') }}" alt="" class="sm_img" />
                                                     اسم الاعلان
                                                 </h6>
                                                 <div class="col-lg-6">
                                                     <div class="feedback_card d-flex">
-                                                        <img src="images/avatar-2.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/avatar-2.png') }}" alt="" class="avatar" />
                                                         <div class="content ">
                                                             <div class="in-flex">
                                                                 <div class="stars">
@@ -326,7 +326,7 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="feedback_card d-flex">
-                                                        <img src="images/avatar-1.png" alt="" class="avatar" />
+                                                        <img src="{{ asset('images/avatar-1.png') }}" alt="" class="avatar" />
                                                         <div class="content ">
                                                             <div class="in-flex">
                                                                 <div class="stars">
