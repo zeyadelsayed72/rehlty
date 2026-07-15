@@ -9,13 +9,13 @@
             <div class="container">
                 <div class="bread wow fadeInDown">
                     <a href="#" class="link">
-                        <img src="images/icons/pg-header-1.svg" alt="" class="icon-18" />
+                        <img src="{{ asset('images/icons/pg-header-1.svg') }}" alt="" class="icon-18" />
                     </a>
                     <span class="this_pg text-white">الشروط والاحكام</span>
                 </div>
                 <h1 class="title text-center text-white wow fadeInUp"><b> الشروط والاحكام </b></h1>
             </div>
-            <img src="images/header-1.png" alt="" class="bg" />
+            <img src="{{ asset('images/header-1.png') }}" alt="" class="bg" />
         </section>
         <!-- Start content-pg -->
         <section class="content-pg section">
@@ -44,8 +44,8 @@
                     </p>
                 </div>
             </div>
-            <img src="images/pattern-1.png" alt="" class="pattern1" />
-            <img src="images/pattern-2.png" alt="" class="pattern2" />
+            <img src="{{ asset('images/pattern-1.png') }}" alt="" class="pattern1" />
+            <img src="{{ asset('images/pattern-2.png') }}" alt="" class="pattern2" />
         </section>
         <!-- Modal -->
         <div class="modal fade" id="agreementModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -53,7 +53,7 @@
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-body col-lg-11 m-auto pb-5">
-                        <img src="images/icons/contract.png" alt="" class="modal_img" />
+                        <img src="{{ asset('images/icons/contract.png') }}" alt="" class="modal_img" />
                         <h2 class="title text-center mb-4"><b> اتفاقية الاستخدام </b></h2>
                         <p class="det">
                             هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
